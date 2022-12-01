@@ -7,13 +7,18 @@ import UseNavigatePage from './routerHook/useNavigatePage'
 import UseLocationPage from './routerHook/useLocationPage'
 // import Routerloader from './routerHook/routeloader'
 import RouterAction from './routerHook/routeraction'
+import FormPage from './routerHook/form'
+import UseRoutesPage from './routerHook/useRoutesPage'
+import UseSubmitPage from './routerHook/useSubmitPage'
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     {/* <IndexPage /> */}
     {/* <UseLocationPage /> */}
     {/* <Routerloader /> */}
-    <RouterAction/>
+    {/* <FormPage/> */}
+    {/* <UseRoutesPage/> */}
+    <UseSubmitPage/>
   </React.StrictMode>
 );
 
